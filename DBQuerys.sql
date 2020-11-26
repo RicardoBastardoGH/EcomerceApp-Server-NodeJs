@@ -499,7 +499,7 @@ ALTER TABLE `orders`
   ADD KEY `fk_orders_users1_idx` (`user_id`);
 
 --
--- Indexes for table `orders_details`
+-- Indexes for table `orders_details``
 --
 ALTER TABLE `orders_details`
   ADD PRIMARY KEY (`id`),
